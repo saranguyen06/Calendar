@@ -82,7 +82,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="event_remote_url" class="form-label">Meeting URL</label>
-                            <input type="text" id="event_remote_url" class="form-control" placeholder="Meeting URL" required pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">
+                            <input type="url" id="event_remote_url" class="form-control" placeholder="Meeting URL" pattern="^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$" required/>
                             <div class="invalid-feedback">
                                 Please enter valid URL.
                             </div>
